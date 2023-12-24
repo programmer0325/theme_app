@@ -32,6 +32,8 @@ class _HomePageState extends State<HomePage> {
                  child: Text("Light Mode",
                  style: TextStyle(
                    color: _lightTheme.colorScheme.primary,
+                   fontWeight: FontWeight.bold,
+                   fontSize: 25,
                  ),
                ),
                ),
@@ -49,6 +51,8 @@ class _HomePageState extends State<HomePage> {
                  child: Text("Dark Mode",
                    style: TextStyle(
                      color: _darkTheme.colorScheme.primary,
+                        fontWeight: FontWeight.bold,
+                     fontSize: 25,
                    ),
                  ),
                ),
